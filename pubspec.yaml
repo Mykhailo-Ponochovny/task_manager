@@ -1,0 +1,45 @@
+name: task_manager
+description: Course work of Mykhailo Ponochovnyi
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.3.8
+
+dependencies:
+  auto_route: ^5.0.4
+  bloc: ^8.1.0
+  context_menus: ^1.0.2
+  ffi: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+  google_sign_in: ^5.4.2
+  flutter_localizations:
+    sdk: flutter
+  injectable: ^1.5.3
+  intl: ^0.17.0
+  riverpod: ^2.1.1
+  flutter_riverpod: 2.1.1
+  json_annotation: ^4.7.0
+  provider: ^6.0.5
+  firebase_auth: ^3.4.0
+  firebase_core: ^1.19.0
+  flutter_login: ^4.1.1
+
+
+dev_dependencies:
+  auto_route_generator: ^5.0.3
+  injectable_generator: ^1.5.3
+  build_runner: ^2.3.2
+  freezed: ^2.3.2
+  json_serializable: ^6.5.4
+  very_good_analysis: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/for_coursework.dll
